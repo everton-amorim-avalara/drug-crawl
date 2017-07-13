@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {         
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./built", 
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "strict" : true,
+    "baseUrl": "./src" ,
+    "sourceMap": true,
+    "paths": {
+      "@root/*" : ["./*"]
+    }
+  } ,
+  "include": [
+    "src/**/*.ts"
+  ]
+}

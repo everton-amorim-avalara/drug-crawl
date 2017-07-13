@@ -1,0 +1,33 @@
+{
+  "name": "drug-crawl",
+  "version": "1.0.0",
+  "description": "Extrator de dados do registro de medicamentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkrueger/drug-crawl.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wkrueger/drug-crawl/issues"
+  },
+  "homepage": "https://github.com/wkrueger/drug-crawl#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mysql": "^2.13.0",
+    "ono": "^3.1.1",
+    "promisify": "https://github.com/wkrueger/promisify.git",
+    "reflect-metadata": "^0.1.10",
+    "request": "^2.81.0",
+    "typeorm": "^0.1.0-alpha.28"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.7",
+    "@types/request": "^0.0.45",
+    "typescript": "^2.4.1"
+  }
+}

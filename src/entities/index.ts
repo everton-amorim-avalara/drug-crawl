@@ -1,0 +1,6 @@
+export { PrincipioAtivo } from './e-principio-ativo'
+export { CategoriaProduto } from './e-categoria-produto'
+export { Empresa } from './e-empresa'
+export { ListaProduto } from './e-lista-produto'
+export { Processo } from './e-processo'
+export { TipoProduto } from './e-tipo-produto'
